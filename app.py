@@ -22,7 +22,7 @@ def index():
 def movies():
     if 'user_id' not in session:
         return redirect(url_for('login'))
-    conn = sqlite3.connect('movies.db')
+    conn = sqlite3.connect('./ddbb/movies.db')
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
     cur.execute("SELECT * FROM movies")
@@ -36,7 +36,7 @@ def actors():
         return redirect(url_for('login'))
 
     query = request.args.get('query', '')  # Buscar actor por nombre
-    conn = sqlite3.connect('movies.db')
+    conn = sqlite3.connect('./ddbb/movies.db')
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
 
@@ -59,7 +59,7 @@ def actors():
 @app.route('/search')
 def search():
     query = request.args.get('query', '')
-    conn = sqlite3.connect('movies.db')
+    conn = sqlite3.connect('./ddbb/movies.db')
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
     cur.execute("SELECT * FROM movies WHERE title LIKE ?", ('%' + query + '%',))
@@ -70,7 +70,7 @@ def search():
 @app.route('/searchActors')
 def searchActors():
     query = request.args.get('query', '')
-    conn = sqlite3.connect('movies.db')  # Asegúrate de que la base de datos esté configurada correctamente
+    conn = sqlite3.connect('./ddbb/movies.db')  # Asegúrate de que la base de datos esté configurada correctamente
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
     cur.execute("SELECT * FROM actors WHERE actor_name LIKE ?", ('%' + query + '%',))
@@ -85,7 +85,7 @@ def perfil():
     if 'user_id' not in session:
         return redirect(url_for('login'))
     
-    conn = sqlite3.connect('movies.db')  # Asegúrate de que la base de datos esté configurada correctamente
+    conn = sqlite3.connect('./ddbb/movies.db')  # Asegúrate de que la base de datos esté configurada correctamente
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
 
@@ -94,7 +94,7 @@ def movie_detail(title):
     if 'user_id' not in session:
         return redirect(url_for('login'))
     
-    conn = sqlite3.connect('movies.db')  # Asegúrate de que la base de datos esté configurada correctamente
+    conn = sqlite3.connect('./ddbb/movies.db')  # Asegúrate de que la base de datos esté configurada correctamente
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
     
@@ -112,7 +112,7 @@ def actor_detail(actor_name):
     if 'user_id' not in session:
         return redirect(url_for('login'))
 
-    conn = sqlite3.connect('movies.db')
+    conn = sqlite3.connect('./ddbb/movies.db')
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
     cur.execute("SELECT * FROM actors WHERE actor_name = ?", (actor_name,))
@@ -132,7 +132,7 @@ def login():
         username = request.form['username']
         password = request.form['password']
         
-        conn = sqlite3.connect('movies.db')
+        conn = sqlite3.connect('./ddbb/movies.db')
         conn.row_factory = sqlite3.Row
         cur = conn.cursor()
         cur.execute("SELECT * FROM users WHERE username = ?", (username,))
@@ -159,7 +159,7 @@ def register():
         password = request.form['password']
         hashed_password = generate_password_hash(password)
 
-        conn = sqlite3.connect('movies.db')
+        conn = sqlite3.connect('./ddbb/movies.db')
         cur = conn.cursor()
         try:
             cur.execute("INSERT INTO users (username, password) VALUES (?, ?)", (username, hashed_password))
