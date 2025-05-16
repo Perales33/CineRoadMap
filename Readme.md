@@ -5,8 +5,8 @@
 
 ## 📌 Tabla de Contenidos
 
-- [Características principales](#características-principales)
-- [Insignias y logros](#insignias-y-logros)
+- [🚀 Características principales ](#características-principales)
+- [🏆 Insignias y logros](#insignias-y-logros)
 - [Desafíos diarios y semanales](#desafíos-diarios-y-semanales)
 - [Perfil y comunidad](#perfil-y-comunidad)
 - [Tecnologías utilizadas](#tecnologías-utilizadas)
@@ -17,7 +17,7 @@
 - [Licencia](#licencia)
 
 
-## 🚀 Características principales
+## 🚀 Características principales 
 
 - Registro y consulta de películas vistas.
 - Sistema de insignias por logros cinematográficos.
