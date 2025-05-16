@@ -1,1 +1,10 @@
-requirements.txt
+# Ignorar carpetas
+__pycache__/
+*.pyc
+
+# Ignorar configuraciones de entorno
+.env
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
