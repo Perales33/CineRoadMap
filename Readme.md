@@ -5,18 +5,18 @@
 
 ## 📌 Tabla de Contenidos
 
-- [Características principales ](#características-principales)
-- [Insignias y logros](#insignias-y-logros)
-- [Desafíos diarios y semanales](#desafíos-diarios-y-semanales)
-- [Perfil y comunidad](#perfil-y-comunidad)
-- [Tecnologías utilizadas](#tecnologías-utilizadas)
-- [Instalación y ejecución](#instalación-y-ejecución)
-- [Estructura del proyecto](#estructura-del-proyecto)
-- [Próximos pasos](#próximos-pasos)
+- [Características principales ](#caracteristicas_principales)
+- [Insignias y logros](#insignias_y_logros)
+- [Desafíos diarios y semanales](#desafios_diarios_y_semanales)
+- [Perfil y comunidad](#perfil_y_comunidad)
+- [Tecnologías utilizadas](#tecnologias_utilizadas)
+- [Instalación y ejecución](#instalacion_y_ejecucion)
+- [Estructura del proyecto](#estructura_del_proyecto)
+- [Próximos pasos](#proximos_pasos)
 - [Licencia](#licencia)
 
 
-## 🚀 Características principales <a name="características-principales"></a> 
+## 🚀 Características principales <a name="caracteristicas_principales"></a> 
 
 - Registro y consulta de películas vistas.
 - Sistema de insignias por logros cinematográficos.
@@ -25,7 +25,7 @@
 - Comparación con amigos y comunidad.
 
 
-## 🏆 Insignias y logros <a name="#insignias-y-logros"></a> 
+## 🏆 Insignias y logros <a name="insignias_y_logros"></a> 
 
 ### 🎥 Colecciones
 - **Top 100 IMDb**
@@ -48,7 +48,7 @@
 - **365 películas al año**
 
 
-## 📅 Desafíos diarios y semanales <a name="#desafíos-diarios-y-semanales"></a> 
+## 📅 Desafíos diarios y semanales <a name="desafios_diarios_y_semanales"></a> 
 
 - 🎯 **Recomendación diaria** automática.
 - 🧭 **Reto del día** (Ej. ver película de un país nuevo).
@@ -56,7 +56,7 @@
 - 🤝 **Reto comunitario** para compartir con amigos.
 
 
-## 👤 Perfil y comunidad <a name="#perfil-y-comunidad"></a> 
+## 👤 Perfil y comunidad <a name="#perfil_y_comunidad"></a> 
 
 - Lista de películas vistas.
 - Insignias desbloqueadas.
@@ -68,7 +68,7 @@
 - Comparte logros y progreso con amigos.
 
 
-## 🛠️ Tecnologías utilizadas <a name="#tecnologías-utilizadas"></a> 
+## 🛠️ Tecnologías utilizadas <a name="tecnologias_utilizadas"></a> 
 
 - **Backend**: Python + Flask
 - **Frontend**: HTML, CSS, JavaScript (desde `templates` y `static`)
@@ -78,7 +78,7 @@
   - `Werkzeug`
 
 
-## ⚙️ Instalación y ejecución <a name="#instalación-y-ejecución"></a> 
+## ⚙️ Instalación y ejecución <a name="instalacion_y_ejecucion"></a> 
 
 ### 🔧 Requisitos
 ```bash
@@ -111,7 +111,7 @@ flask run -p 5000
 http://127.0.0.1:5000/
 ``` 
 
-### 📁 Estructura del proyecto <a name="#estructura-del-proyecto"></a> 
+### 📁 Estructura del proyecto <a name="estructura_del_proyecto"></a> 
 ```bash
 Cineroadmap/
 ├── app.py                  # Archivo principal Flask
@@ -129,7 +129,7 @@ Cineroadmap/
 │   └── img/
 ```
 
-### 🔮 Próximos pasos <a name="#próximos-pasos"></a> 
+### 🔮 Próximos pasos <a name="proximos_pasos"></a> 
 
 - Migrar la aplicación a Java
 - Desarrollar la aplicación para móvil
@@ -138,5 +138,5 @@ Cineroadmap/
 - Sincronización entre dispositivos
 - Sistema de notificaciones
 
-### 📄 Licencia <a name="#licencia"></a> 
+### 📄 Licencia <a name="licencia"></a> 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
