@@ -1,67 +1,144 @@
-# CineRoadmap – El reto final para los cinéfilos
+# 🎬 CineRoadmap – El reto final para los cinéfilos
+
+**CineRoadmap** es una plataforma web gamificada desarrollada con Flask que permite a los amantes del cine registrar las películas que han visto, desbloquear insignias y completar desafíos cinematográficos. Inspirada en los logros de videojuegos, promueve el descubrimiento fílmico y el espíritu comunitario entre cinéfilos.
+
+---
+
+## 📌 Tabla de Contenidos
+
+- [Características principales](#características-principales)
+- [Insignias y logros](#insignias-y-logros)
+- [Desafíos diarios y semanales](#desafíos-diarios-y-semanales)
+- [Perfil y comunidad](#perfil-y-comunidad)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Instalación y ejecución](#instalación-y-ejecución)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Próximos pasos](#próximos-pasos)
+- [Contribuciones](#contribuciones)
+- [Licencia](#licencia)
+
+---
+
+## 🚀 Características principales
+
+- Registro y consulta de películas vistas.
+- Sistema de insignias por logros cinematográficos.
+- Desafíos diarios/semanales que incentivan el hábito.
+- Perfil con estadísticas, rachas y horas de visualización.
+- Comparación con amigos y comunidad.
+
+---
+
+## 🏆 Insignias y logros
+
+### 🎥 Colecciones
+- **Top 100 IMDb**
+- **Oscar 2024**
+- **Cinéfilo Retro**
+- **Cine Independiente**
+
+### 👥 Actores y Directores
+- **Fan de Scorsese**
+- **Fan de Christian Bale**
+
+### 🕰️ Por Décadas
+- **Cinéfilo de los 60**
+- **Rey del VHS (80s)**
+- **Nostalgia 90s**
+
+### 🧗 Retos Especiales
+- **Semana de cine**
+- **1 Day 1 Saga**
+- **365 películas al año**
+
+---
+
+## 📅 Desafíos diarios y semanales
+
+- 🎯 **Recomendación diaria** automática.
+- 🧭 **Reto del día** (Ej. ver película de un país nuevo).
+- 🎥 **Reto semanal** (Ej. película nominada al Oscar).
+- 🤝 **Reto comunitario** para compartir con amigos.
+
+---
+
+## 👤 Perfil y comunidad
+
+- Lista de películas vistas.
+- Insignias desbloqueadas.
+- Estadísticas cinéfilas:
+  - Películas totales
+  - Racha más larga
+  - Mes más productivo
+  - Total de horas
+- Comparte logros y progreso con amigos.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **Backend**: Python + Flask
+- **Frontend**: HTML, CSS, JavaScript (desde `templates` y `static`)
+- **Base de datos**: SQLite (con backup incluido)
+- **Librerías clave**:
+  - `Flask`
+  - `Werkzeug`
+
+---
+
+## ⚙️ Instalación y ejecución
+
+### 🔧 Requisitos
+
+- Python 3.8+
+- pip
+
+### 📦 Instalación
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/tuusuario/cineroadmap.git
+cd cineroadmap
+
+2. Intala los requrimientos
+
+```bash
+pip install -r requirements.txt
+
+3. Ejecuta la app
+
+```bash
+flask run -p 5000
+
+4. Abre tu navegador y accede a: 
+http://127.0.0.1:5000/
 
 
-## Descripción del programa
+### 📁 Estructura del proyecto
 
-CineRoadmap es una plataforma diseñada para que cualquier amante del cine pueda registrar las películas que ha visto a lo largo de su vida, desbloquear logros y completar desafíos. El objetivo es incentivar a los usuarios a descubrir nuevas películas y mediante un sistema gamificado inspirado en los videojuegos.
+Cineroadmap/
+├── app.py                  # Archivo principal Flask
+├── database.db             # Base de datos SQLite
+├── backup.sql              # Backup de la base de datos
+├── requirements.txt        # Dependencias (Flask, Werkzeug)
+├── LICENSE                 # Licencia del proyecto
+├── README.md               # Este archivo
+├── Datos/                  # Archivos CSV de soporte
+├── templates/              # HTML renderizado por Flask
+├── static/                 # CSS, JS, imágenes
+│   ├── css/
+│   ├── js/
+│   └── img/
 
+### 🔮 Próximos pasos
 
-## Sistema de Insignias y Logros
+- Migrar la aplicación a Java
+- Desarrollar la aplicación para móvil
+- Integración con APIs externas (IMDb o TMDB)
+- Versión móvil (Android/iOS)
+- Sincronización entre dispositivos
+- Sistema de notificaciones
 
-Los usuarios podrán desbloquear insignias al completar diferentes retos cinematográficos. Estas insignias estarán divididas en diversas categorías:
-
-
-### Insignias de Colecciones de Películas
-
-Top 100 películas: Ver las 100 mejores películas según IMDb.
-Oscar 2024: Ver todas las películas ganadoras del Oscar en 2024 (aplicable para cada edición).
-Cinéfilo Retro: Ver 50 películas en blanco y negro.
-Cine Independiente: Ver 50 películas del circuito indie.
- 
-
-### Insignias de Actores/Directores
-
-Fan de Scorsese: Ver al menos 10 películas de Martin Scorsese.
-Fan de Christian Bale: Ver 10 películas en las que aparece Christian Bale.
- 
-
-### Insignias por Décadas
-
-Cinéfilo de los 60: Ver 100 películas de los años 60.
-Rey del VHS (80s): Ver 100 películas de los años 80.
-Nostalgia 90s: Ver 100 películas de los años 90.
- 
-
-### Insignias de Resistencia y Retos Especiales
-
-Semana de cine: Ver 7 películas en 7 días.
-1 Day 1 Saga: Ver toda una saga en un solo día (ejemplo: Star Wars, Harry Potter, El Señor de los Anillos).
-365: Ver 365 películas en un año.
-
-## Desafíos y Retos Diarios
-
-Además de las insignias permanentes, CineRoadmap tendrá desafíos diarios y semanales para promover la participación continua. Algunas ideas:
-
-- Recomendación Diaria: La aplicación propone una película.
-- Reto del Día: Un desafío específico como "Ver una película de un país que nunca hayas explorado".
-- Reto Semanal: Ejemplo: "Ver una película nominada a los Premios Oscar de este año".
-- Reto de Comunidad: Permite a los usuarios desafiarse entre sí para completar un reto específico. Por ejemplo, para incentivar a un amigo a que vea esa película que siempre le recomiendas y nunca ve.
- 
-
-## Perfil y Comunidad
-
-Cada usuario dispondrá de un perfil personalizado donde podrá:
-
-- Consultar su lista de películas vistas.
-- Visualizar las insignias que ha desbloqueado.
-- Comparar su progreso con el de sus amigos y conocer sus gustos.
-- Compartir sus logros.
-- Consultar sus estadísticas, como el número de películas vistas, la racha más larga de días consecutivos viendo películas, el mes más productivo o el total de horas de visualización acumuladas.
- 
-
-## Desarrollo
-
-Dado que CineRoadmap es un proyecto demasiado extenso para un tiempo de desarrollo de tres meses, se propone la creación de una demo con funcionalidades básicas.
-
-Esta versión inicial incluiría un sistema de registro y consulta de películas, (Para front-end se utilizaría HTML, CSS Y JS y para back-end java) una base de datos (utilizando SQL) con una selección representativa de títulos y una serie limitada de insignias desbloqueables.
-De esta manera, se podría demostrar la viabilidad del proyecto y establecer una base fácilmente escalable para futuras expansiones.
+### 📄 Licencia
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
