@@ -27,7 +27,6 @@
 - Perfil con estadísticas, rachas y horas de visualización.
 - Comparación con amigos y comunidad.
 
----
 
 ## 🏆 Insignias y logros
 
@@ -51,7 +50,6 @@
 - **1 Day 1 Saga**
 - **365 películas al año**
 
----
 
 ## 📅 Desafíos diarios y semanales
 
@@ -60,7 +58,6 @@
 - 🎥 **Reto semanal** (Ej. película nominada al Oscar).
 - 🤝 **Reto comunitario** para compartir con amigos.
 
----
 
 ## 👤 Perfil y comunidad
 
@@ -73,7 +70,6 @@
   - Total de horas
 - Comparte logros y progreso con amigos.
 
----
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -84,7 +80,6 @@
   - `Flask`
   - `Werkzeug`
 
----
 
 ## ⚙️ Instalación y ejecución
 
@@ -116,8 +111,7 @@ flask run -p 5000
 4. Abre tu navegador y accede a: 
 ```bash
 http://127.0.0.1:5000/
-```
---- 
+``` 
 
 ### 📁 Estructura del proyecto
 ```bash
@@ -135,7 +129,6 @@ Cineroadmap/
 │   ├── js/
 │   └── img/
 ```
----
 
 ### 🔮 Próximos pasos
 
@@ -145,8 +138,6 @@ Cineroadmap/
 - Versión móvil (Android/iOS)
 - Sincronización entre dispositivos
 - Sistema de notificaciones
-
----
 
 ### 📄 Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
