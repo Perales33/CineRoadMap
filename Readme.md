@@ -82,9 +82,10 @@
 ## ⚙️ Instalación y ejecución
 
 ### 🔧 Requisitos
-
+```bash
 - Python 3.8+
 - pip
+```
 
 ### 📦 Instalación
 
@@ -138,4 +139,4 @@ Cineroadmap/
 - Sistema de notificaciones
 
 ### 📄 Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
