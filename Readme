@@ -1,0 +1,67 @@
+# CineRoadmap – El reto final para los cinéfilos
+
+
+## Descripción del programa
+
+CineRoadmap es una plataforma diseñada para que cualquier amante del cine pueda registrar las películas que ha visto a lo largo de su vida, desbloquear logros y completar desafíos. El objetivo es incentivar a los usuarios a descubrir nuevas películas y mediante un sistema gamificado inspirado en los videojuegos.
+
+
+## Sistema de Insignias y Logros
+
+Los usuarios podrán desbloquear insignias al completar diferentes retos cinematográficos. Estas insignias estarán divididas en diversas categorías:
+
+
+### Insignias de Colecciones de Películas
+
+Top 100 películas: Ver las 100 mejores películas según IMDb.
+Oscar 2024: Ver todas las películas ganadoras del Oscar en 2024 (aplicable para cada edición).
+Cinéfilo Retro: Ver 50 películas en blanco y negro.
+Cine Independiente: Ver 50 películas del circuito indie.
+ 
+
+### Insignias de Actores/Directores
+
+Fan de Scorsese: Ver al menos 10 películas de Martin Scorsese.
+Fan de Christian Bale: Ver 10 películas en las que aparece Christian Bale.
+ 
+
+### Insignias por Décadas
+
+Cinéfilo de los 60: Ver 100 películas de los años 60.
+Rey del VHS (80s): Ver 100 películas de los años 80.
+Nostalgia 90s: Ver 100 películas de los años 90.
+ 
+
+### Insignias de Resistencia y Retos Especiales
+
+Semana de cine: Ver 7 películas en 7 días.
+1 Day 1 Saga: Ver toda una saga en un solo día (ejemplo: Star Wars, Harry Potter, El Señor de los Anillos).
+365: Ver 365 películas en un año.
+
+## Desafíos y Retos Diarios
+
+Además de las insignias permanentes, CineRoadmap tendrá desafíos diarios y semanales para promover la participación continua. Algunas ideas:
+
+- Recomendación Diaria: La aplicación propone una película.
+- Reto del Día: Un desafío específico como "Ver una película de un país que nunca hayas explorado".
+- Reto Semanal: Ejemplo: "Ver una película nominada a los Premios Oscar de este año".
+- Reto de Comunidad: Permite a los usuarios desafiarse entre sí para completar un reto específico. Por ejemplo, para incentivar a un amigo a que vea esa película que siempre le recomiendas y nunca ve.
+ 
+
+## Perfil y Comunidad
+
+Cada usuario dispondrá de un perfil personalizado donde podrá:
+
+- Consultar su lista de películas vistas.
+- Visualizar las insignias que ha desbloqueado.
+- Comparar su progreso con el de sus amigos y conocer sus gustos.
+- Compartir sus logros.
+- Consultar sus estadísticas, como el número de películas vistas, la racha más larga de días consecutivos viendo películas, el mes más productivo o el total de horas de visualización acumuladas.
+ 
+
+## Desarrollo
+
+Dado que CineRoadmap es un proyecto demasiado extenso para un tiempo de desarrollo de tres meses, se propone la creación de una demo con funcionalidades básicas.
+
+Esta versión inicial incluiría un sistema de registro y consulta de películas, (Para front-end se utilizaría HTML, CSS Y JS y para back-end java) una base de datos (utilizando SQL) con una selección representativa de títulos y una serie limitada de insignias desbloqueables.
+De esta manera, se podría demostrar la viabilidad del proyecto y establecer una base fácilmente escalable para futuras expansiones.

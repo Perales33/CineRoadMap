@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+    <h1 class="mt-5">Bienvenido a CineRoadMap</h1>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/3MyiHfn9tmA?start=410" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div>
+        <h2 class="mt-5">Recomendaciones</h2>
+        <h3 class="mt-5" id="titulo">Peliculas:</h3>
+        <div class="recomendaciones_peliculas">
+            <a href="http://127.0.0.1:5500/movie/Luther:%20Cae%20la%20noche"><img id="index" src="https://m.media-amazon.com/images/M/MV5BNGI5YWI0NDQtMmE4OS00NTY4LWExMDAtYWU5OTAxN2QxMWI0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"/></a>
+            <a href="http://127.0.0.1:5500/movie/Mufasa:%20El%20rey%20león"><img id="index" src="https://m.media-amazon.com/images/M/MV5BYjBkOWUwODYtYWI3YS00N2I0LWEyYTktOTJjM2YzOTc3ZDNlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"/></a>
+            <a href="http://127.0.0.1:5500/movie/Spider-Man:%20A%20Trav%C3%A9s%20Del%20Spider-Verso"><img id="index" src="https://media1.popsugar-assets.com/files/thumbor/CS3QkjKtmhI3Sc-FAbIGCtqL54M/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2023/05/18/847/n/1922283/tmp_NDZQDI_6d89e829d474d4ba_SV2_BusShltr_TSR_MilesAction_02.jpg"/></a>
+        </div>
+        <h3 class="mt-5" id="titulo">Actores y actrices:</h3>
+        <div class="recomendaciones_actores">
+            <a href="http://127.0.0.1:5500/actor/Carrie%20Fisher"><img id="index" src="https://storage.googleapis.com/www-factornueve-com/2022/10/45ebbb25-bigstock-los-angeles-sep-carrie-fi-169675781-e1666321824906.jpg"></a>
+            <a href="http://127.0.0.1:5500/actor/Morgan%20Freeman"><img id="index" src="https://th.bing.com/th/id/OIP.eY_vk8f-kjZOfs_yDdCFYgHaLG?w=204&h=305&c=7&r=0&o=5&dpr=1.1&pid=1.7"></a>
+            <a href="http://127.0.0.1:5500/actor/Ewan%20McGregor"><img id="index" src="https://th.bing.com/th/id/OIP.q2eRYiAaCXz2w5FPlzZo2AHaJ4?w=206&h=275&c=7&r=0&o=5&dpr=1.1&pid=1.7"></a>
+        </div>
+    </div>
+{% endblock %}

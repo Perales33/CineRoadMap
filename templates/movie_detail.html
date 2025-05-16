@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+
+{% block title %}Detalles de la Película{% endblock %}
+
+{% block content %}
+    <!-- Contenedor principal para el contenido de la página -->
+    <div class="container mt-5">
+        
+        <!-- Título de la película -->
+        <h1>{{ movie.title }}</h1>
+        
+        <!-- Encabezado para la sección de detalles de la película -->
+        <h3>Detalles de la Película</h3>
+        
+        <!-- Lista de detalles de la película -->
+        <ul class="list-group">
+            <li class="list-group-item">
+                <strong>Título:</strong> {{ movie.title }}<br>
+                <strong>Director:</strong> {{ movie.directors }}<br>
+                <strong>Género:</strong> {{ movie.genres }}<br>
+                <strong>Año:</strong> {{ movie.year }}<br>
+                <strong>Duración:</strong> {{ movie.runtime }} minutos<br>
+                <strong>Calificación IMDb:</strong> {{ movie.imdb_rating }}<br>
+                <strong>Votos:</strong> {{ movie.num_votes }}<br>
+                <strong>Fecha de estreno:</strong> {{ movie.release_date }}<br>
+                <strong>Enlace a IMDb:</strong> <a href="{{ movie.url }}" target="_blank">Ver en IMDb</a><br>
+            </li>
+        </ul>
+                
+        <!-- Botón para volver a la lista de películas -->
+        <a href="{{ url_for('movies') }}" class="btn btn-info mt-3">Volver a las Películas</a>
+    </div>
+{% endblock %}

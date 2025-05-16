@@ -1,0 +1,32 @@
+{% extends 'layout.html' %} <!-- Extiende la plantilla base 'layout.html' -->
+
+{% block title %}About Us{% endblock %} <!-- Título de la página específica -->
+
+{% block content %}
+    <!-- Contenido principal de la página "Sobre Nosotros" -->
+    <div class="container mt-5">
+        <h1 class="mb-4">Sobre Nosotros</h1> <!-- Título principal de la página -->
+        <div class="row">
+            <!-- Sección de la misión de la empresa -->
+            <div class="col-md-6">
+                <h2>Nuestra Misión</h2>
+                <p>
+                    En CineRoadmap, vivimos y respiramos cine. Nuestra misión es crear un espacio donde los amantes del séptimo arte 
+                    puedan explorar un universo de películas, desde los clásicos atemporales hasta las producciones más innovadoras y sorprendentes.
+                    Si buscas recomendaciones para una noche de cine inolvidable, análisis profundos de tus películas favoritas o 
+                    simplemente quieres descubrir curiosidades y detalles ocultos del mundo cinematográfico, este es tu lugar. 
+                    Ya sea que prefieras el drama intenso, la acción trepidante o las historias más extravagantes de la ciencia ficción, en CineRoadmap encontrarás una 
+                    guía perfecta para cada ocasión. 🎬✨
+                </p>
+            </div>
+            <!-- Sección de información sobre quiénes son -->
+            <div class="col-md-6">
+                <h2>Quienes Somos</h2>
+                <p> Fundado por **Santiago López, Felipe Giménez, Antonio Perales y Alberto Carracelas**, nuestro equipo combina una gran experiencia y una pasión compartida por el mundo cinematográfico. 
+                    Nos dedicamos no solo a explorar y analizar el cine en profundidad, sino también a acercar el séptimo arte a quienes aún no lo conocen, 
+                    haciendo que todos puedan disfrutar y aprender sobre su magia.🎬✨
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
