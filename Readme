@@ -100,23 +100,27 @@
 ```bash
 git clone https://github.com/tuusuario/cineroadmap.git
 cd cineroadmap
+```
 
 2. Intala los requrimientos
 
 ```bash
 pip install -r requirements.txt
+```
 
 3. Ejecuta la app
 
 ```bash
 flask run -p 5000
-
+```
 4. Abre tu navegador y accede a: 
+```bash
 http://127.0.0.1:5000/
-
+```
+--- 
 
 ### 📁 Estructura del proyecto
-
+```bash
 Cineroadmap/
 ├── app.py                  # Archivo principal Flask
 ├── database.db             # Base de datos SQLite
@@ -130,6 +134,8 @@ Cineroadmap/
 │   ├── css/
 │   ├── js/
 │   └── img/
+```
+---
 
 ### 🔮 Próximos pasos
 
@@ -139,6 +145,8 @@ Cineroadmap/
 - Versión móvil (Android/iOS)
 - Sincronización entre dispositivos
 - Sistema de notificaciones
+
+---
 
 ### 📄 Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
