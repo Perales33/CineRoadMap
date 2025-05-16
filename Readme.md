@@ -116,14 +116,15 @@ http://127.0.0.1:5000/
 ```bash
 Cineroadmap/
 ├── app.py                  # Archivo principal Flask
-├── database.db             # Base de datos SQLite
-├── backup.sql              # Backup de la base de datos
+├── ddbb 
+│   ├── movies.db           # Base de datos SQLite
+│   └── backup.db           # Backup de la base de datos
 ├── requirements.txt        # Dependencias (Flask, Werkzeug)
 ├── LICENSE                 # Licencia del proyecto
 ├── README.md               # Este archivo
 ├── Datos/                  # Archivos CSV de soporte
 ├── templates/              # HTML renderizado por Flask
-├── static/                 # CSS, JS, imágenes
+├── static/                 # CSS, JavaScript, imágenes
 │   ├── css/
 │   ├── js/
 │   └── img/
