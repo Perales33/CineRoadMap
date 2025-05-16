@@ -13,7 +13,6 @@
 - [Instalación y ejecución](#instalación-y-ejecución)
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Próximos pasos](#próximos-pasos)
-- [Contribuciones](#contribuciones)
 - [Licencia](#licencia)
 
 
@@ -26,7 +25,7 @@
 - Comparación con amigos y comunidad.
 
 
-## 🏆 Insignias y logros
+## 🏆 Insignias y logros <a name="#insignias-y-logros"></a> 
 
 ### 🎥 Colecciones
 - **Top 100 IMDb**
@@ -49,7 +48,7 @@
 - **365 películas al año**
 
 
-## 📅 Desafíos diarios y semanales
+## 📅 Desafíos diarios y semanales <a name="#desafíos-diarios-y-semanales"></a> 
 
 - 🎯 **Recomendación diaria** automática.
 - 🧭 **Reto del día** (Ej. ver película de un país nuevo).
@@ -57,7 +56,7 @@
 - 🤝 **Reto comunitario** para compartir con amigos.
 
 
-## 👤 Perfil y comunidad
+## 👤 Perfil y comunidad <a name="#perfil-y-comunidad"></a> 
 
 - Lista de películas vistas.
 - Insignias desbloqueadas.
@@ -69,7 +68,7 @@
 - Comparte logros y progreso con amigos.
 
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas <a name="#tecnologías-utilizadas"></a> 
 
 - **Backend**: Python + Flask
 - **Frontend**: HTML, CSS, JavaScript (desde `templates` y `static`)
@@ -79,7 +78,7 @@
   - `Werkzeug`
 
 
-## ⚙️ Instalación y ejecución
+## ⚙️ Instalación y ejecución <a name="#instalación-y-ejecución"></a> 
 
 ### 🔧 Requisitos
 ```bash
@@ -112,7 +111,7 @@ flask run -p 5000
 http://127.0.0.1:5000/
 ``` 
 
-### 📁 Estructura del proyecto
+### 📁 Estructura del proyecto <a name="#estructura-del-proyecto"></a> 
 ```bash
 Cineroadmap/
 ├── app.py                  # Archivo principal Flask
@@ -130,7 +129,7 @@ Cineroadmap/
 │   └── img/
 ```
 
-### 🔮 Próximos pasos
+### 🔮 Próximos pasos <a name="#próximos-pasos"></a> 
 
 - Migrar la aplicación a Java
 - Desarrollar la aplicación para móvil
@@ -139,5 +138,5 @@ Cineroadmap/
 - Sincronización entre dispositivos
 - Sistema de notificaciones
 
-### 📄 Licencia
+### 📄 Licencia <a name="#licencia"></a> 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
