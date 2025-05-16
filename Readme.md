@@ -72,11 +72,11 @@
 ## 🛠️ Tecnologías utilizadas
 
 - **Backend**: Python + Flask
-- **Frontend**: HTML, CSS, JavaScript (desde templates y static)
+- **Frontend**: HTML, CSS, JavaScript (desde `templates` y `static`)
 - **Base de datos**: SQLite (con backup incluido)
 - **Librerías clave**:
-  - Flask
-  - Werkzeug
+  - `Flask`
+  - `Werkzeug`
 
 
 ## ⚙️ Instalación y ejecución
@@ -90,24 +90,29 @@
 
 1. Clona el repositorio:
 
-git clone https://github.com/tuusuario/cineroadmap.git
+```bash
+git clone https://github.com/Perales33/Cineroadmap.git
 cd Cineroadmap
+```
 
 2. Instala los requerimientos
 
+```bash
 pip install -r requirements.txt
+```
 
 3. Ejecuta la app
 
+```bash
 flask run -p 5000
-
+```
 4. Abre tu navegador y accede a: 
-
+```bash
 http://127.0.0.1:5000/
- 
+``` 
 
 ### 📁 Estructura del proyecto
-
+```bash
 Cineroadmap/
 ├── app.py                  # Archivo principal Flask
 ├── database.db             # Base de datos SQLite
@@ -121,6 +126,7 @@ Cineroadmap/
 │   ├── css/
 │   ├── js/
 │   └── img/
+```
 
 ### 🔮 Próximos pasos
 
